@@ -8,6 +8,7 @@ namespace webApi.Controllers
 {
     public class HomeController : Controller
     {
+        public const string variable1 = "1";
         public ActionResult Index()
         {
             return View();
